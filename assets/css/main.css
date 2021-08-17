@@ -288,6 +288,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   font-weight: 200;
   color: #fff;
   position: relative;
+  opacity: 0.8;
 }
 
 @media (max-width: 991px) {
