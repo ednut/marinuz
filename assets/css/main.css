@@ -33,7 +33,7 @@ button {
 }
 
 a {
-  color: #0d1f3b;
+  color: #040100;
 }
 
 html {
@@ -47,7 +47,7 @@ body {
   font-weight: 400;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #0d1f3b;
+  color: #040100;
   background-color: #f7faff;
 }
 
@@ -183,7 +183,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 }
 
 .mobile-header ul li a {
-  color: #0d1f3b;
+  color: #040100;
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
@@ -419,7 +419,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 }
 
 .overview .section:nth-child(3) {
-  background-color: #053043;
+  background-color: #063549;
 }
 
 .overview .section .icon {
@@ -476,6 +476,45 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   font-size: 25px;
   display: block;
   padding-top: 2px;
+}
+
+.welcome {
+  min-height: 10rem;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+}
+
+.welcome .title {
+  color: #040100;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.welcome .content {
+  margin-bottom: 2rem;
+  font-size: 16px;
+  color: #040100;
+}
+
+.welcome .learn-more {
+  background-image: -webkit-gradient(linear, left top, right top, from(#dd4454), color-stop(50%, #dd9044), to(#dd4454));
+  background-image: linear-gradient(to right, #dd4454 0%, #dd9044 50%, #dd4454 100%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.welcome .learn-more:hover {
+  -webkit-transition: all 0.15s linear 0s;
+  transition: all 0.15s linear 0s;
 }
 
 footer {

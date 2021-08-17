@@ -1,5 +1,5 @@
 $header-height: 5rem;
-$text-color: #0d1f3b;
+$text-color: #040100;
 $brand-color: #165153;
 $white: #ffffff;
 $gold: #cf9455;
@@ -328,7 +328,7 @@ header {
       background-color: #053043;
     }
     &:nth-child(3) {
-      background-color: #053043;
+      background-color: #063549;
     }
     .icon {
       background: linear-gradient(to top, #dd4454 0%, #dd9044 100%);
@@ -376,6 +376,43 @@ header {
         display: block;
         padding-top: 2px;
       }
+    }
+  }
+}
+
+.welcome {
+  min-height: 10rem;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  .title {
+    color: $text-color;
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+  .content {
+    margin-bottom: 2rem;
+    font-size: 16px;
+    color: $text-color;
+  }
+  .learn-more {
+    background-image: linear-gradient(
+      to right,
+      #dd4454 0%,
+      #dd9044 50%,
+      #dd4454 100%
+    );
+    transition: 0.5s;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 16px;
+    color: $white;
+    font-weight: 500;
+    display: inline-block;
+    &:hover {
+      transition: all 0.15s linear 0s;
     }
   }
 }
