@@ -7,9 +7,17 @@ var myApp = angular.module('myApp', [
 ]);
 
 // configure our routes
-myApp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
-  //
-  $locationProvider.html5Mode(true);
+
+// Add in Production
+// myApp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+
+//remove in production
+myApp.config(function ($stateProvider, $urlRouterProvider) {
+  // Add in Production
+  // $locationProvider.html5Mode(true);
+
+  //remove in production
+  $urlRouterProvider.otherwise('/');
 
   // For any unmatched url, redirect to /state1
   $urlRouterProvider.otherwise(function ($injector) {
