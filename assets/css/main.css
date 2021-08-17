@@ -159,7 +159,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   width: 100%;
   top: 0;
   display: none;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .mobile-header .title {
@@ -174,7 +174,6 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 
 .mobile-header ul {
   text-align: center;
-  margin-top: 2rem;
   padding: 0 0 25px 0;
 }
 
