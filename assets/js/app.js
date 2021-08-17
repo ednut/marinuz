@@ -19,12 +19,13 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
   //remove in production
   $urlRouterProvider.otherwise('/');
 
+  // Add in Production
   // For any unmatched url, redirect to /state1
-  $urlRouterProvider.otherwise(function ($injector) {
-    $injector.invoke(function ($state) {
-      $state.transitionTo('404', {}, false);
-    });
-  });
+  // $urlRouterProvider.otherwise(function ($injector) {
+  //   $injector.invoke(function ($state) {
+  //     $state.transitionTo('404', {}, false);
+  //   });
+  // });
 
   // Now set up the states
   $stateProvider
