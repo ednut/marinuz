@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html class="no-js" lang="" ng-app="myApp">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Marinus</title>
+    <base href="/" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="canonical" href="https://www.marinus.com" />
+    <meta name="robots" content="index" />
+
+    <meta property="og:url" content="https://www.marinus.com" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="90" />
+    <meta property="og:image:height" content="76" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/flexslider.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,577;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,577;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body ng-controller="generalController">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header>
+        <div class="container">
+          <div class="header-wrap">
+            <div class="header-wrap--logo-section">
+              <a ui-sref="home"><img src="images/logo.png" alt="Logo" /></a>
+            </div>
+            <div class="header-wrap--link-section">
+              <ul>
+                <li class="hide-on-mobile" ng-class="{ current: isActive('/')}">
+                  <a ui-sref="home">Home</a>
+                </li>
+                <li
+                  class="hide-on-mobile"
+                  ng-class="{ current: isActive('/the-firm')}"
+                >
+                  <a ui-sref="about">About</a>
+                </li>
+                <li
+                  class="hide-on-mobile"
+                  ng-class="{ current: isActive('/practice-areas')}"
+                >
+                  <a ui-sref="services">Services</a>
+                </li>
+                <!-- <li class="hide-on-mobile" ><a target="_blank" href="">Articles</a></li> -->
+                <li
+                  class="hide-on-mobile"
+                  ng-class="{ current: isActive('/contact')}"
+                >
+                  <a ui-sref="contact">Contact</a>
+                </li>
+                <li class="bugger-menu hide-on-desktop">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="mobile-header">
+        <div class="title">
+          <a ui-sref="home"><img src="images/Close1.svg" alt="" /></a>
+        </div>
+        <ul>
+          <li ng-class="{ current: isActive('/')}">
+            <a ui-sref="home">Home</a>
+          </li>
+          <li ng-class="{ current: isActive('/the-firm')}">
+            <a ui-sref="about">About</a>
+          </li>
+          <li ng-class="{ current: isActive('/practice-areas')}">
+            <a ui-sref="services">Services</a>
+          </li>
+          <!-- <li><a target="_blank" href="">Articles</a></li> -->
+          <li ng-class="{ current: isActive('/contact')}">
+            <a ui-sref="contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="main">
+        <div ui-view autoscroll="true"></div>
+      </div>
+
+      <div class="space"></div>
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="wrap">
+            <div class="copy">
+              Copyright © <span id="year"></span> All rights reserved.
+            </div>
+            <div class="social">
+              <ul>
+                <li class="privacy-link">
+                  <a ui-sref="/">Privacy Policy <span>|</span></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com"
+                    ><img src="images/LinkedIN.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.facebook.com"
+                    ><img src="images/Facebook.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="/assets/js/angularjs/angular.min.js"></script>
+    <script src="/assets/js/angularjs/angular-animate.js"></script>
+    <script src="/assets/js/angularjs/angular-ui-router.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/controllers/generalController.js"></script>
+    <script src="/assets/js/jquery.flexslider-min.js"></script>
+
+    <script>
+      $('.bugger-menu ').click(function () {
+        $('.mobile-header').toggle();
+      });
+
+      $('.mobile-header .title ').click(function () {
+        $('.mobile-header').toggle();
+      });
+
+      $('.mobile-header ul li ').click(function () {
+        $('.mobile-header').toggle();
+      });
+    </script>
+  </body>
+</html>
