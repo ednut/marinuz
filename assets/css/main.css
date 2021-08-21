@@ -88,7 +88,7 @@ header .header-wrap--logo-section {
 }
 
 header .header-wrap--logo-section a {
-  color: #165153;
+  color: #f18920;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -195,7 +195,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 }
 
 .mobile-header ul li.current a {
-  color: #cf9455;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -647,7 +647,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 
 .contact .contact-wrap .form form .form-wrap button {
   color: #fff;
-  background-color: #165153;
+  background-color: #f18920;
   padding: 16px 20px;
   border: 1px solid transparent;
   font-size: 0.9rem;
@@ -668,6 +668,29 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 .contact .contact-wrap .form form .form-wrap.half input {
   width: 100%;
   margin-bottom: 1rem;
+}
+
+.navigation {
+  padding: 2rem 0;
+  background: #efefef;
+  margin-bottom: 3rem;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  color: #f18920;
+}
+
+.navigation ul li a span {
+  color: #f18920;
 }
 
 .info {
@@ -755,6 +778,25 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
         -ms-flex-order: 1;
             order: 1;
   }
+}
+
+.content {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.content .title {
+  font-size: 42px;
+  color: #040100;
+  margin-bottom: 2rem;
+}
+
+.content p.heading {
+  font-weight: 500;
+  margin-top: 2rem;
+  display: block;
+  font-size: 1.3rem;
+  color: #f18920;
 }
 
 footer {

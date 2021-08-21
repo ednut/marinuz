@@ -35,13 +35,23 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
     })
 
     .state('about', {
-      url: '/the-firm',
+      url: '/about-us',
       templateUrl: 'partials/about.html'
     })
 
     .state('services', {
-      url: '/practice-areas',
+      url: '/services',
       templateUrl: 'partials/services.html'
+    })
+
+    .state('offshore', {
+      url: '/services/marine-and-offshore-support-services',
+      templateUrl: 'partials/marine-and-offshore.html'
+    })
+
+    .state('procurement', {
+      url: '/services/procurement',
+      templateUrl: 'partials/procuremente.html'
     })
 
     .state('contact', {

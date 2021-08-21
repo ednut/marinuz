@@ -1,8 +1,7 @@
-$header-height: 5rem;
 $text-color: #040100;
-$brand-color: #165153;
+$brand-color: #f18920;
 $white: #ffffff;
-$gold: #cf9455;
+$header-height: 5rem;
 
 #main {
   overflow: hidden;
@@ -161,7 +160,7 @@ header {
       }
       &.current {
         a {
-          color: $gold;
+          color: $white;
           font-weight: 500;
         }
       }
@@ -532,6 +531,25 @@ header {
   }
 }
 
+.navigation {
+  padding: 2rem 0;
+  background: #efefef;
+  margin-bottom: 3rem;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      a {
+        color: $brand-color;
+        span {
+          color: $brand-color;
+        }
+      }
+    }
+  }
+}
+
 .info {
   display: flex;
   flex-wrap: nowrap;
@@ -588,6 +606,23 @@ header {
         order: 1;
       }
     }
+  }
+}
+
+.content {
+  position: relative;
+  margin-bottom: 4rem;
+  .title {
+    font-size: 42px;
+    color: $text-color;
+    margin-bottom: 2rem;
+  }
+  p.heading {
+    font-weight: 500;
+    margin-top: 2rem;
+    display: block;
+    font-size: 1.3rem;
+    color: $brand-color;
   }
 }
 
