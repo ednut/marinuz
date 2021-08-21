@@ -210,6 +210,14 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   }
 }
 
+.home-banner.others {
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 .home-banner .flexslider {
   border: none;
   margin-bottom: 0;
@@ -272,7 +280,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   text-decoration: none;
   white-space: normal;
   width: 740px;
-  height: 683px;
+  height: 645px;
   min-height: 0px;
   min-width: 0px;
   max-height: none;
@@ -309,7 +317,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 
 @media (max-width: 991px) {
   .home-banner .oil-animation .caption {
-    top: 3rem;
+    top: 5rem;
     left: 4rem;
   }
 }
@@ -326,8 +334,8 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 @media (max-width: 991px) {
   .home-banner .oil-animation .title {
     font-size: 25px;
-    line-height: 25px;
-    top: 5rem;
+    line-height: 35px;
+    top: 7rem;
     left: 4rem;
   }
 }
@@ -346,7 +354,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 
 @media (max-width: 991px) {
   .home-banner .oil-animation .cta {
-    top: 10rem;
+    top: 13rem;
     left: 4rem;
   }
 }

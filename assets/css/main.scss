@@ -175,6 +175,13 @@ header {
   @media (max-width: 991px) {
     height: auto;
   }
+  &.others {
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
   .flexslider {
     border: none;
     margin-bottom: 0;
@@ -229,7 +236,7 @@ header {
     text-decoration: none;
     white-space: normal;
     width: 740px;
-    height: 683px;
+    height: 645px;
     min-height: 0px;
     min-width: 0px;
     max-height: none;
@@ -255,7 +262,7 @@ header {
       top: 11rem;
       left: 5rem;
       @media (max-width: 991px) {
-        top: 3rem;
+        top: 5rem;
         left: 4rem;
       }
     }
@@ -268,8 +275,8 @@ header {
       left: 4rem;
       @media (max-width: 991px) {
         font-size: 25px;
-        line-height: 25px;
-        top: 5rem;
+        line-height: 35px;
+        top: 7rem;
         left: 4rem;
       }
     }
@@ -284,7 +291,7 @@ header {
       border-radius: 2rem;
       font-size: 16px;
       @media (max-width: 991px) {
-        top: 10rem;
+        top: 13rem;
         left: 4rem;
       }
     }
