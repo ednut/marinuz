@@ -473,6 +473,13 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   color: #ffffff;
   font-weight: 400;
   margin-bottom: 2rem;
+  min-height: 76px;
+}
+
+@media (max-width: 991px) {
+  .overview .section .content {
+    min-height: auto;
+  }
 }
 
 .overview .section .read-more {

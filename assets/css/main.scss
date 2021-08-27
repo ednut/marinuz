@@ -365,6 +365,10 @@ header {
       color: $white;
       font-weight: 400;
       margin-bottom: 2rem;
+      min-height: 76px;
+      @media (max-width: 991px) {
+        min-height: auto;
+      }
     }
     .read-more {
       color: $white;
