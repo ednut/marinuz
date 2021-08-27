@@ -811,12 +811,11 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/images/mission.jpeg");
 }
 
 @media (max-width: 991px) {
   .who-we-are {
-    background-image: none;
+    background-image: none !important;
     min-height: auto;
     padding: 2rem 0;
   }
