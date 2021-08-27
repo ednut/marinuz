@@ -59,6 +59,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
       templateUrl: 'partials/contact.html'
     })
 
+    .state('careers', {
+      url: '/careers',
+      templateUrl: 'partials/careers.html'
+    })
+
     .state('404', {
       templateUrl: 'partials/404.html'
     });
