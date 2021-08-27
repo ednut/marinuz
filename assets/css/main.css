@@ -130,11 +130,6 @@ header .header-wrap--link-section ul li a {
   text-transform: uppercase;
 }
 
-header .header-wrap--link-section ul li.current a {
-  color: #ffffff;
-  font-weight: 500;
-}
-
 header .header-wrap--link-section ul li.bugger-menu {
   width: 30px;
   cursor: pointer;
@@ -198,11 +193,6 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   display: block;
   border-bottom: 2px solid transparent;
   position: relative;
-}
-
-.mobile-header ul li.current a {
-  color: #ffffff;
-  font-weight: 500;
 }
 
 .home-banner {
@@ -424,9 +414,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 }
 
 .overview .section {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  width: 33.33%;
   padding: 2rem;
 }
 
@@ -879,6 +867,18 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 
 .who-we-are .wrap .content {
   font-size: 16px;
+}
+
+.who-we-are.about .wrap {
+  padding-top: 10rem;
+  margin-top: 0;
+}
+
+@media (max-width: 991px) {
+  .who-we-are.about .wrap {
+    padding-top: 1rem;
+    margin-top: 0rem;
+  }
 }
 
 .our-client {

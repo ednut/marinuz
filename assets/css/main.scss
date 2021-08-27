@@ -99,12 +99,6 @@ header {
             border-bottom: 2px solid transparent;
             text-transform: uppercase;
           }
-          &.current {
-            a {
-              color: $white;
-              font-weight: 500;
-            }
-          }
           &.bugger-menu {
             width: 30px;
             cursor: pointer;
@@ -160,12 +154,6 @@ header {
         display: block;
         border-bottom: 2px solid transparent;
         position: relative;
-      }
-      &.current {
-        a {
-          color: $white;
-          font-weight: 500;
-        }
       }
     }
   }
@@ -331,7 +319,8 @@ header {
     text-decoration: none;
   }
   .section {
-    flex-grow: 1;
+    // flex-grow: 1;
+    width: 33.33%;
     padding: 2rem;
     &:nth-child(1) {
       background-color: #042b3e;
@@ -682,6 +671,16 @@ header {
     }
     .content {
       font-size: 16px;
+    }
+  }
+  &.about {
+    .wrap {
+      padding-top: 10rem;
+      margin-top: 0;
+      @media (max-width: 991px) {
+        padding-top: 1rem;
+        margin-top: 0rem;
+      }
     }
   }
 }
