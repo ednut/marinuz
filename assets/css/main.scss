@@ -398,6 +398,9 @@ header {
     min-height: 25rem;
     height: auto;
   }
+  &.home {
+    min-height: 13rem;
+  }
   &.services {
     @media (max-width: 991px) {
       padding: 2rem 0rem;

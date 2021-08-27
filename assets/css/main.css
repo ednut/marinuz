@@ -511,6 +511,10 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   }
 }
 
+.welcome.home {
+  min-height: 13rem;
+}
+
 @media (max-width: 991px) {
   .welcome.services {
     padding: 2rem 0rem;
