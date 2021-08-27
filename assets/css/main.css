@@ -502,6 +502,12 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   position: relative;
 }
 
+@media (max-width: 991px) {
+  .welcome {
+    padding: 7rem 0rem;
+  }
+}
+
 .welcome .title {
   color: #040100;
   font-size: 30px;
@@ -797,6 +803,91 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   display: block;
   font-size: 1.3rem;
   color: #f18920;
+}
+
+.who-we-are {
+  padding: 5rem 0;
+  min-height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/images/mission.jpeg");
+}
+
+@media (max-width: 991px) {
+  .who-we-are {
+    background-image: none;
+    min-height: auto;
+    padding: 2rem 0;
+  }
+}
+
+.who-we-are .wrap {
+  width: 50%;
+  margin-top: 6rem;
+}
+
+@media (max-width: 991px) {
+  .who-we-are .wrap {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+.who-we-are .wrap i {
+  background: -webkit-gradient(linear, left bottom, left top, from(#dd4454), to(#dd9044));
+  background: linear-gradient(to top, #dd4454 0%, #dd9044 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.who-we-are .wrap .title {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.who-we-are .wrap .content {
+  font-size: 16px;
+}
+
+.our-client {
+  padding: 5rem 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.our-client .title {
+  font-size: 30px;
+  margin-bottom: 4rem;
+}
+
+.our-client ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.our-client ul li {
+  display: inline-block;
+  margin-right: 2rem;
+  border: 2px solid #f2f5f7;
+  padding: 50px;
+  vertical-align: bottom;
+}
+
+.our-client ul li:nth-child(1) img {
+  width: 120px;
+}
+
+.our-client ul li:nth-child(2) {
+  padding: 22px 50px;
+}
+
+.our-client ul li:nth-child(2) img {
+  width: 80px;
 }
 
 footer {
