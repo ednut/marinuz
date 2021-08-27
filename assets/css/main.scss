@@ -404,6 +404,9 @@ header {
   }
   &.home {
     min-height: 13rem;
+    @media (max-width: 991px) {
+      min-height: 25rem;
+    }
   }
   &.services {
     @media (max-width: 991px) {
