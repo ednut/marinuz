@@ -494,6 +494,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 
 .welcome {
   min-height: 10rem;
+  height: auto;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -505,6 +506,8 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 @media (max-width: 991px) {
   .welcome {
     padding: 7rem 0rem;
+    min-height: 25rem;
+    height: auto;
   }
 }
 
@@ -546,6 +549,12 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 6rem 2rem 2rem 2rem;
+}
+
+@media (max-width: 991px) {
+  .welcome .overlay {
+    padding: 3rem 1rem;
+  }
 }
 
 .welcome .overlay .title {
@@ -858,6 +867,12 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   text-align: center;
 }
 
+@media (max-width: 991px) {
+  .our-client {
+    padding: 3rem 0;
+  }
+}
+
 .our-client .title {
   font-size: 30px;
   margin-bottom: 4rem;
@@ -872,9 +887,17 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 .our-client ul li {
   display: inline-block;
   margin-right: 2rem;
+  margin-bottom: 0;
   border: 2px solid #f2f5f7;
   padding: 50px;
   vertical-align: bottom;
+}
+
+@media (max-width: 991px) {
+  .our-client ul li {
+    margin-bottom: 2rem;
+    margin-right: 0rem;
+  }
 }
 
 .our-client ul li:nth-child(1) img {
@@ -883,6 +906,12 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 
 .our-client ul li:nth-child(2) {
   padding: 22px 50px;
+}
+
+@media (max-width: 991px) {
+  .our-client ul li:nth-child(2) {
+    padding: 22px 70px;
+  }
 }
 
 .our-client ul li:nth-child(2) img {

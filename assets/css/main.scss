@@ -391,6 +391,7 @@ header {
 
 .welcome {
   min-height: 10rem;
+  height: auto;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -399,6 +400,8 @@ header {
   position: relative;
   @media (max-width: 991px) {
     padding: 7rem 0rem;
+    min-height: 25rem;
+    height: auto;
   }
   .title {
     color: $text-color;
@@ -436,6 +439,9 @@ header {
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 6rem 2rem 2rem 2rem;
+    @media (max-width: 991px) {
+      padding: 3rem 1rem;
+    }
     .title {
       color: $white;
     }
@@ -670,6 +676,7 @@ header {
   background-color: $white;
   text-align: center;
   @media (max-width: 991px) {
+    padding: 3rem 0;
   }
   .title {
     font-size: 30px;
@@ -682,9 +689,14 @@ header {
     li {
       display: inline-block;
       margin-right: 2rem;
+      margin-bottom: 0;
       border: 2px solid #f2f5f7;
       padding: 50px;
       vertical-align: bottom;
+      @media (max-width: 991px) {
+        margin-bottom: 2rem;
+        margin-right: 0rem;
+      }
       &:nth-child(1) {
         img {
           width: 120px;
@@ -692,6 +704,9 @@ header {
       }
       &:nth-child(2) {
         padding: 22px 50px;
+        @media (max-width: 991px) {
+          padding: 22px 70px;
+        }
         img {
           width: 80px;
         }
