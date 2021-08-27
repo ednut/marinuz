@@ -168,6 +168,12 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   padding: 20px 20px;
 }
 
+@media (max-width: 991px) {
+  .mobile-header .title {
+    padding: 20px 20px 0 20px;
+  }
+}
+
 .mobile-header .title img {
   width: 80px;
 }
@@ -511,6 +517,20 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   }
 }
 
+@media (max-width: 991px) {
+  .welcome.services {
+    padding: 2rem 0rem;
+    min-height: 10rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .welcome.about {
+    padding: 2rem 0rem;
+  }
+}
+
 .welcome .title {
   color: #040100;
   font-size: 30px;
@@ -572,7 +592,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 
 @media (max-width: 991px) {
   .contact {
-    margin-top: 10rem;
+    margin-top: 3rem;
   }
 }
 
