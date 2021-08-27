@@ -322,6 +322,9 @@ header {
     // flex-grow: 1;
     width: 33.33%;
     padding: 2rem;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
     &:nth-child(1) {
       background-color: #042b3e;
     }
