@@ -253,7 +253,7 @@ header {
       left: 5rem;
       @media (max-width: 991px) {
         top: 5rem;
-        left: 4rem;
+        left: 2rem;
       }
     }
     .title {
@@ -267,7 +267,7 @@ header {
         font-size: 25px;
         line-height: 35px;
         top: 7rem;
-        left: 4rem;
+        left: 2rem;
       }
     }
     .cta {
@@ -282,7 +282,7 @@ header {
       font-size: 16px;
       @media (max-width: 991px) {
         top: 13rem;
-        left: 4rem;
+        left: 2rem;
       }
     }
   }
@@ -642,6 +642,9 @@ header {
 .content {
   position: relative;
   margin-bottom: 4rem;
+  @media (max-width: 991px) {
+    margin-bottom: 4rem;
+  }
   .title {
     font-size: 42px;
     color: $text-color;

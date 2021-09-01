@@ -314,7 +314,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 @media (max-width: 991px) {
   .home-banner .oil-animation .caption {
     top: 5rem;
-    left: 4rem;
+    left: 2rem;
   }
 }
 
@@ -332,7 +332,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
     font-size: 25px;
     line-height: 35px;
     top: 7rem;
-    left: 4rem;
+    left: 2rem;
   }
 }
 
@@ -351,7 +351,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 @media (max-width: 991px) {
   .home-banner .oil-animation .cta {
     top: 13rem;
-    left: 4rem;
+    left: 2rem;
   }
 }
 
@@ -834,6 +834,12 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 .content {
   position: relative;
   margin-bottom: 4rem;
+}
+
+@media (max-width: 991px) {
+  .content {
+    margin-bottom: 4rem;
+  }
 }
 
 .content .title {
