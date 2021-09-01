@@ -414,7 +414,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 }
 
 .overview .section {
-  width: 33.33%;
+  width: 25%;
   padding: 2rem;
 }
 
@@ -434,6 +434,10 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 
 .overview .section:nth-child(3) {
   background-color: #063549;
+}
+
+.overview .section:nth-child(4) {
+  background-color: #073a4f;
 }
 
 .overview .section .icon {
@@ -597,7 +601,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 }
 
 .contact {
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
@@ -632,6 +636,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 .contact .contact-wrap .map {
   width: 45%;
   overflow: hidden;
+  background-color: #efefef;
 }
 
 @media (max-width: 991px) {
