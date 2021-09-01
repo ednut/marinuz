@@ -275,8 +275,8 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   color: white;
   text-decoration: none;
   white-space: normal;
-  width: 55%;
-  height: 645px;
+  width: 50vw;
+  height: 80vh;
   min-height: 0px;
   min-width: 0px;
   max-height: none;
