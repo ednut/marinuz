@@ -49,6 +49,16 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
       templateUrl: 'partials/marine-and-offshore.html'
     })
 
+    .state('petroleum', {
+      url: '/services/trading-and-supply-of-petroleum-products',
+      templateUrl: 'partials/trading-and-supply-of-petroleum-products.html'
+    })
+
+    .state('manpower', {
+      url: '/services/manpower-supply-and-management',
+      templateUrl: 'partials/manpower-supply-and-management.html'
+    })
+
     .state('procurement', {
       url: '/services/procurement',
       templateUrl: 'partials/procuremente.html'
