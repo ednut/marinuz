@@ -9,23 +9,22 @@ var myApp = angular.module('myApp', [
 // configure our routes
 
 // Add in Production
-// myApp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
-
-//remove in production
-myApp.config(function ($stateProvider, $urlRouterProvider) {
+myApp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+  //remove in production
+  // myApp.config(function ($stateProvider, $urlRouterProvider) {
   // Add in Production
-  // $locationProvider.html5Mode(true);
+  $locationProvider.html5Mode(true);
 
   //remove in production
-  $urlRouterProvider.otherwise('/');
+  // $urlRouterProvider.otherwise('/');
 
   // Add in Production
   // For any unmatched url, redirect to /state1
-  // $urlRouterProvider.otherwise(function ($injector) {
-  //   $injector.invoke(function ($state) {
-  //     $state.transitionTo('404', {}, false);
-  //   });
-  // });
+  $urlRouterProvider.otherwise(function ($injector) {
+    $injector.invoke(function ($state) {
+      $state.transitionTo('404', {}, false);
+    });
+  });
 
   // Now set up the states
   $stateProvider

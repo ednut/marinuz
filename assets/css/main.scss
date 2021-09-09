@@ -198,7 +198,7 @@ header {
           left: 0;
           color: #fff;
           text-align: center;
-          padding: 7rem 0 0 10rem;
+          padding: 0;
           @media (max-width: 991px) {
             padding: 5rem 0 0 0;
           }
@@ -225,10 +225,8 @@ header {
     color: rgb(255, 255, 255);
     text-decoration: none;
     white-space: normal;
-    width: 740px;
-    // width: 50vw;
-    height: 645px;
-    // height: 80vh;
+    width: 50vw;
+    height: 80vh;
     min-height: 0px;
     min-width: 0px;
     max-height: none;
@@ -242,29 +240,33 @@ header {
     color: #fff;
     position: relative;
     opacity: 0.8;
+    top: 15vh;
+    left: 5vw;
     @media (max-width: 991px) {
       width: 90%;
       height: 90%;
       margin: auto;
+      top: 0vh;
+      left: 0vw;
     }
     .caption {
       font-size: 16px;
       white-space: nowrap;
       position: absolute;
-      top: 11rem;
-      left: 5rem;
+      top: 20vh;
+      left: 5vw;
       @media (max-width: 991px) {
         top: 5rem;
         left: 2rem;
       }
     }
     .title {
-      font-size: 65px;
-      line-height: 78px;
+      font-size: 4.5vw;
+      line-height: 4.5rem;
       white-space: normal;
       position: absolute;
-      top: 14rem;
-      left: 4rem;
+      top: 25vh;
+      left: 5vw;
       @media (max-width: 991px) {
         font-size: 25px;
         line-height: 35px;
@@ -276,8 +278,8 @@ header {
       display: block;
       position: absolute;
       color: $white;
-      top: 27rem;
-      left: 4rem;
+      top: 50vh;
+      left: 5vw;
       border: 1px solid;
       padding: 1rem 2rem;
       border-radius: 2rem;
@@ -321,7 +323,6 @@ header {
     text-decoration: none;
   }
   .section {
-    // flex-grow: 1;
     width: 25%;
     padding: 2rem;
     @media (max-width: 991px) {

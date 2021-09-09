@@ -247,7 +247,7 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   left: 0;
   color: #fff;
   text-align: center;
-  padding: 7rem 0 0 10rem;
+  padding: 0;
 }
 
 @media (max-width: 991px) {
@@ -275,8 +275,8 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   color: white;
   text-decoration: none;
   white-space: normal;
-  width: 740px;
-  height: 645px;
+  width: 50vw;
+  height: 80vh;
   min-height: 0px;
   min-width: 0px;
   max-height: none;
@@ -293,6 +293,8 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   color: #fff;
   position: relative;
   opacity: 0.8;
+  top: 15vh;
+  left: 5vw;
 }
 
 @media (max-width: 991px) {
@@ -300,6 +302,8 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
     width: 90%;
     height: 90%;
     margin: auto;
+    top: 0vh;
+    left: 0vw;
   }
 }
 
@@ -307,8 +311,8 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   font-size: 16px;
   white-space: nowrap;
   position: absolute;
-  top: 11rem;
-  left: 5rem;
+  top: 20vh;
+  left: 5vw;
 }
 
 @media (max-width: 991px) {
@@ -319,12 +323,12 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
 }
 
 .home-banner .oil-animation .title {
-  font-size: 65px;
-  line-height: 78px;
+  font-size: 4.5vw;
+  line-height: 4.5rem;
   white-space: normal;
   position: absolute;
-  top: 14rem;
-  left: 4rem;
+  top: 25vh;
+  left: 5vw;
 }
 
 @media (max-width: 991px) {
@@ -340,8 +344,8 @@ header .header-wrap--link-section ul li.bugger-menu .line:first-child {
   display: block;
   position: absolute;
   color: #ffffff;
-  top: 27rem;
-  left: 4rem;
+  top: 50vh;
+  left: 5vw;
   border: 1px solid;
   padding: 1rem 2rem;
   border-radius: 2rem;
